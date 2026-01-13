@@ -288,6 +288,165 @@
   display: none;
 }
 
+.luxe {
+  padding: 30px;
+  max-width: 1200px;
+  height: 1650px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.luxe h1 {
+  color: #323638;
+  font-size: 35px;
+  font-weight: 500;
+  width: 90%;
+  text-align: center;
+}
+.luxe .luxe1 {
+  width: 100%;
+  height: 650px;
+  border-radius: 25px;
+  border: 1px solid #DEDEDE;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+.luxe .luxe1 .luxe-btn {
+  background: linear-gradient(#447C2A, #3DB846, #447C2A);
+  border-radius: 40px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 50px;
+  cursor: pointer;
+  display: none;
+}
+.luxe .luxe1 .luxe-img {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.luxe .luxe1 .luxe-img .luxe-pic {
+  width: 100%;
+}
+.luxe .luxe1 .luxe-txt {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.luxe .luxe1 .luxe-txt .luxe-both {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.luxe .luxe1 .luxe-txt .luxe-both .luxe-und {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.luxe .luxe1 .luxe-txt .luxe-both .luxe-und p {
+  color: rgba(70, 70, 70, 0.7568627451);
+  font-size: 18px;
+  font-weight: 300;
+}
+.luxe .luxe1 .luxe-txt .luxe-both .luxe-und h1 {
+  color: #323638;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+  right: 15px;
+}
+.luxe .luxe1 .luxe-txt .luxe-both button {
+  background: linear-gradient(#447C2A, #3DB846, #447C2A);
+  border-radius: 40px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+.luxe .luxe1 .luxe-txt .luxe-nexts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.luxe .luxe1 .luxe-txt .luxe-nexts .luxe-circle {
+  position: relative;
+  top: 4px;
+}
+.luxe .luxe1 .luxe-txt .luxe-nexts .luxe-next {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.luxe .luxe1 .luxe-txt .luxe-nexts .luxe-next p {
+  color: #323638;
+  font-size: 18px;
+  font-weight: 400;
+}
+.luxe .luxe1 .luxe-txt .luxe-main {
+  padding: 15px 40px;
+  width: 87%;
+  height: 230px;
+  border-radius: 25px;
+  background-color: #FFFAF2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.luxe .luxe1 .luxe-txt .luxe-main .luxe-main1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.luxe .luxe1 .luxe-txt .luxe-main .luxe-main1 .luxe-main-both {
+  display: flex;
+  gap: 50px;
+}
+.luxe .luxe1 .luxe-txt .luxe-main .luxe-main1 .luxe-main-both h2 {
+  color: #464646;
+  font-size: 20px;
+  font-weight: 600;
+}
+.luxe .luxe1 .luxe-txt .luxe-main .luxe-main1 .luxe-main-both h3 {
+  color: #CACACA;
+}
+.luxe .luxe1 .luxe-txt .luxe-main .luxe-main2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.luxe .luxe1 .luxe-txt .luxe-main .luxe-main2 .luxe-main-next {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.luxe .luxe1 .luxe-txt .luxe-main .luxe-main2 .luxe-main-next p {
+  color: #464646;
+  font-size: 16px;
+  font-weight: 400;
+}
+.luxe .luxe1 .luxe-txt .luxe-main .luxe-hr {
+  width: 100%;
+  border: 1px solid #E0E0E0;
+}
+
 @media (max-width: 600px) {
   .navbar .nav-media {
     display: flex;
@@ -498,5 +657,129 @@
   }
   .unforget .unforget-btn {
     display: block;
+  }
+  .luxe {
+    max-width: 1200px;
+    height: 2000px;
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .luxe h1 {
+    font-size: 25px;
+    width: 100%;
+    text-align: start;
+  }
+  .luxe .luxe1 {
+    width: 90%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .luxe .luxe1 .luxe-btn {
+    display: block;
+    position: relative;
+    top: 50px;
+    width: 100%;
+  }
+  .luxe .luxe1 .luxe-img {
+    width: 100%;
+    height: 50%;
+  }
+  .luxe .luxe1 .luxe-img .luxe-pic {
+    width: 100%;
+  }
+  .luxe .luxe1 .luxe-txt {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-both {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-both .luxe-und {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-both .luxe-und p {
+    font-size: 16px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-both .luxe-und h1 {
+    font-size: 35px;
+    position: relative;
+    right: 0px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-both button {
+    display: none;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-nexts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-nexts .luxe-circle {
+    position: relative;
+    top: 4px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-nexts .luxe-next {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-nexts .luxe-next p {
+    font-size: 16px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-main {
+    padding: 15px 30px;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-main .luxe-main1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-main .luxe-main1 .luxe-main-both {
+    display: flex;
+    gap: 20px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-main .luxe-main1 .luxe-main-both h2 {
+    font-size: 16px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-main .luxe-main1 .luxe-main-both h3 {
+    display: none;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-main .luxe-main2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-main .luxe-main2 .luxe-main-next {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-main .luxe-main2 .luxe-main-next p {
+    font-size: 14px;
+  }
+  .luxe .luxe1 .luxe-txt .luxe-main .luxe-hr {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

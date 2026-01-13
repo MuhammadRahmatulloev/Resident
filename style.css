@@ -209,6 +209,85 @@
   font-weight: 400;
 }
 
+.unforget {
+  max-width: 1200px;
+  height: 1250px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.unforget .unforget-both {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.unforget .unforget-both h1 {
+  color: #323638;
+  font-size: 35px;
+  font-weight: 500;
+  width: 50%;
+}
+.unforget .unforget-both button {
+  background: linear-gradient(#447C2A, #3DB846, #447C2A);
+  border-radius: 40px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 50px;
+  cursor: pointer;
+  padding: 25px 40px;
+  font-size: 18px;
+}
+.unforget .unforget-trio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.unforget .unforget-trio .unforget-img1 {
+  width: 23%;
+}
+.unforget .unforget-trio .unforget-img2 {
+  width: 48%;
+}
+.unforget .unforget-und {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.unforget .unforget-und p {
+  color: #5E4520;
+  font-size: 25px;
+  font-weight: 400;
+}
+.unforget .video {
+  width: 100%;
+}
+.unforget .unforget-btn {
+  background: linear-gradient(#447C2A, #3DB846, #447C2A);
+  border-radius: 40px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 50px;
+  cursor: pointer;
+  font-size: 18px;
+  display: none;
+}
+
 @media (max-width: 600px) {
   .navbar .nav-media {
     display: flex;
@@ -313,7 +392,7 @@
   .recom {
     padding: 30px;
     max-width: 1200px;
-    height: 820px;
+    height: 1450px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -368,5 +447,56 @@
   }
   .recom .recom1 .recom-item .recom-und p {
     font-size: 16px;
+  }
+  .unforget {
+    padding: 30px;
+    max-width: 1200px;
+    height: 750px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .unforget .unforget-both {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .unforget .unforget-both h1 {
+    font-size: 25px;
+    width: 80%;
+  }
+  .unforget .unforget-both button {
+    display: none;
+  }
+  .unforget .unforget-trio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .unforget .unforget-trio .unforget-img1 {
+    display: none;
+  }
+  .unforget .unforget-trio .unforget-img2 {
+    width: 100%;
+  }
+  .unforget .unforget-und {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .unforget .unforget-und p {
+    font-size: 25px;
+  }
+  .unforget .video {
+    width: 100%;
+  }
+  .unforget .unforget-btn {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

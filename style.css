@@ -531,6 +531,169 @@
   text-decoration: underline;
 }
 
+.behind {
+  width: 1px;
+  height: 1px;
+  position: relative;
+}
+.behind .map-behind {
+  z-index: 1;
+  position: absolute;
+  bottom: -1000px;
+  left: -100px;
+}
+
+.sign {
+  max-width: 1200px;
+  height: 680px;
+  margin: auto;
+  margin-top: 50px;
+  background-image: url("./map.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+}
+.sign .sign-form {
+  background-color: #FCFCFC;
+  border-radius: 25px;
+  width: 50%;
+  height: 80%;
+  position: relative;
+  top: 70px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sign .sign-form h1 {
+  color: #323638;
+  font-size: 35px;
+  font-weight: 500;
+  width: 80%;
+  text-align: center;
+}
+.sign .sign-form .sign-divs {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.sign .sign-form .sign-divs form {
+  width: 45%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign .sign-form .sign-divs form h2 {
+  color: #323638;
+  font-size: 22px;
+  font-weight: 600;
+}
+.sign .sign-form .sign-divs form input {
+  padding: 0px 20px;
+  width: 75%;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  background-color: #EFEFEF;
+}
+.sign .sign-form .sign-divs form button {
+  background: linear-gradient(#447C2A, #3DB846, #447C2A);
+  border-radius: 40px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 50px;
+  cursor: pointer;
+  padding: 0;
+  width: 90%;
+  height: 50px;
+}
+.sign .sign-form .sign-divs form .sign-both {
+  display: flex;
+  gap: 10px;
+}
+.sign .sign-form .sign-divs form .sign-both input {
+  width: 20px;
+  height: 20px;
+}
+.sign .sign-form .sign-divs form .sign-both p {
+  color: #323638;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+}
+.sign .sign-form .sign-divs .sign-div1 {
+  border-left: 1px solid #E1E1E1;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.sign .sign-form .sign-divs .sign-div1 .sign-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.sign .sign-form .sign-divs .sign-div1 .sign-txt h2 {
+  color: #323638;
+  font-size: 22px;
+  font-weight: 600;
+}
+.sign .sign-form .sign-divs .sign-div1 .sign-txt .sign-nexts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sign .sign-form .sign-divs .sign-div1 .sign-txt .sign-nexts .sign-next {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sign .sign-form .sign-divs .sign-div1 .sign-txt .sign-nexts .sign-next h3 {
+  color: #323638;
+  font-size: 22px;
+  font-weight: 400;
+}
+.sign .sign-form .sign-divs .sign-div1 .sign-txt .sign-nexts .sign-next2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sign .sign-form .sign-divs .sign-div1 .sign-txt .sign-nexts .sign-next2 p {
+  color: #323638;
+  font-size: 14px;
+  font-weight: 400;
+}
+.sign .sign-form .sign-divs .sign-div1 .sign-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sign .sign-form .sign-divs .sign-div1 .sign-icon h2 {
+  color: #323638;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sign .sign-form .sign-divs .sign-div1 .sign-icon .sign-icons {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+}
+
 @media (max-width: 600px) {
   .navbar .nav-media {
     display: flex;
@@ -906,5 +1069,100 @@
   }
   .face .face1 .face-cards .face-card2 .face-pic {
     width: 100%;
+  }
+  .behind {
+    display: none;
+  }
+  .sign {
+    max-width: 1200px;
+    height: 1300px;
+    margin: auto;
+    margin-top: 200px;
+    background-image: url("./map2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .sign .sign-form {
+    width: 90%;
+    height: 80%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sign .sign-form h1 {
+    font-size: 35px;
+    width: 80%;
+    text-align: center;
+  }
+  .sign .sign-form .sign-divs {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sign .sign-form .sign-divs form {
+    width: 100%;
+    height: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sign .sign-form .sign-divs form h2 {
+    color: #323638;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .sign .sign-form .sign-divs form input {
+    padding: 0px 20px;
+    width: 75%;
+    height: 50px;
+  }
+  .sign .sign-form .sign-divs form button {
+    background: linear-gradient(#447C2A, #3DB846, #447C2A);
+    border-radius: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 50px;
+    cursor: pointer;
+    padding: 0;
+    width: 90%;
+    height: 50px;
+  }
+  .sign .sign-form .sign-divs form .sign-both {
+    display: flex;
+    gap: 10px;
+  }
+  .sign .sign-form .sign-divs form .sign-both input {
+    width: 20px;
+    height: 20px;
+  }
+  .sign .sign-form .sign-divs form .sign-both p {
+    font-size: 14px;
+    text-align: start;
+  }
+  .sign .sign-form .sign-divs .sign-div1 {
+    border-left: 0px;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
